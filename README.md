@@ -10,6 +10,13 @@ Suggested Services:
 - Embedding
 - CLI 
 
+# REDIS 
+- Free version which includes 1 database, 30 connections, 100 ops/sec, 30MB RAM, other capabilities 
+- Name: edia-database-bnd #14278090
+- Database version: 8.4 
+- Cloud vendor: Amazon Web Services (AWS)
+- Region: us-east-1
+
 ## Project Overview (taken and slightly modified from slides): 
 - This project combines modular systems, pub-sub, document databases, and vector search into one system.
 - Workflow is asynchronous: submission, inference, storage, indexing, and retrieval do not need one blocking call. 

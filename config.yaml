@@ -1,7 +1,7 @@
 logging:
   level: DEBUG
   log_dir: logs
-  log_file: datasheetai
+  log_file: edia
   max_bytes: 5242880
   backup_count: 3
 
@@ -18,7 +18,7 @@ data_loader:
   skip_blank_rows: true
 
 database:
-  path: datasheetai.db
+  path: edia.db
   timeout: 30
 
 schema_manager:
